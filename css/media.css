@@ -33,10 +33,21 @@
     .nav-butons{
         display: none;
     }
+    .main-block{
+        padding: 10px 0 20px;
+    }
+    @media screen and (max-width:700px){
+        .main-title{
+            font-size: 30px;
+        }
+    } 
 }
 @media screen and (max-width:440px){
     .menu{
         display: none;
+    }
+    .logo{
+        margin-bottom: 0;
     }
 
 }
