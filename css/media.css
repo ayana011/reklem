@@ -13,6 +13,14 @@
     margin-right: 15px; ;
 }
 @media screen and (max-width:1100px){
+    .container-inner{
+        max-width: 80px;
+    }
+    .row{
+        align-items: center;
+    }
+}
+@media screen and (max-width:1100px){
     .menu{
         margin-right: 0;
     }
@@ -36,11 +44,26 @@
     .main-block{
         padding: 10px 0 20px;
     }
+    .branding-info{
+        max-width: 50px;
+    }
+    .branding-img{
+        max-width: 45%;
+    }
+    @media screen and (max-width:700px){
+        .branding-info{
+            max-width: 100px;
+        }
+        .branding-img{
+            max-width: 100%;
+        }
+    }
     @media screen and (max-width:700px){
         .main-title{
             font-size: 28px;
         }
-    } 
+    }
+
     @media screen and (max-width:700px){
         .main-title{
             font-size: 24px;
@@ -55,8 +78,9 @@
     .logo{
         margin-bottom: 0;
     }
-
 }
+
+
 
 
 
