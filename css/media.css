@@ -53,10 +53,11 @@
     @media screen and (max-width:700px){
         .branding-info{
             max-width: 100px;
-        }
+        } 
         .branding-img{
-            max-width: 100%;
+            display: none;
         }
+    }
     }
     @media screen and (max-width:700px){
         .main-title{
@@ -70,7 +71,6 @@
             margin-bottom: 20px;
         }
     } 
-}
 @media screen and (max-width:440px){
     .menu{
         display: none;

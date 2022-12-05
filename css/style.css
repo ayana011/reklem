@@ -76,11 +76,12 @@ li{
     margin-right: 28px;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
 }
-.constructor{
+.constructor-icon{
     padding: 12px 30px;
     background-color: #fff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    display: block;
 }
 .con-icon{
     margin-left: 10px;
@@ -96,12 +97,17 @@ li{
     margin-bottom: 140px;
    
 }
-.main-title{
+.title{
     font-size: 36px;
     font-weight: 600;
 }
 .line-text{
     background-image: url(../img/linetext.png);
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+}
+.line-text-dark{
+    background-image: url(../img/line-dark.png);
     background-repeat: repeat-x;
     background-position: 0 100%;
 }
@@ -111,8 +117,6 @@ li{
     margin-bottom: 100px;
 }
 .branding-title{
-    font-size: 36px;
-    font-weight: 600;
     margin-bottom: 44px;
 }
 .branding-info{
@@ -137,6 +141,9 @@ li{
 .branding-img{
     max-width: 480px;
 }
+.advanrage-block{
+    margin-bottom: 160px;
+}
 .advanrage-col{
     width: 192px;
 }
@@ -157,6 +164,33 @@ li{
 }
 .advanrage-col p{
     color: #b3b3b3;
+}
+.constructor-green{
+    max-width: 907px;
+    margin: 0 0 0 auto;
+    position: relative;
+    background-color: #10bd87;
+    background-image: url(../img/pattern\ \(2\ 00\).png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    border-radius: 28px 0 0 0 ;
+    padding: 50px 0 50px 11%;
+}
+.constructor-img{
+    position: absolute;
+    left: -43%;
+    bottom: -47px;
+}
+.constructor-info{
+    max-width: 352px;
+}
+.constructor-info h2{
+    color: #fff;
+    margin-bottom: 44px;
+}
+.constructor-info p{
+    color: #487b6c;
+    margin-bottom: 28px;
 }
 
 
